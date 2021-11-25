@@ -37,18 +37,18 @@ public class _01_anfang {
     
     
     
-    @Test
+    @Test(priority = 1)
      void url(){
 
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
     }
-    @Test
+    @Test(enabled = false)
     void title(){
 
         System.out.println("driver.getTitle() = " + driver.getTitle());
 
     }
-    @Test
+    @Test(priority = 2)
     void handel(){
 
         System.out.println("driver.getWindowHandle() = " + driver.getWindowHandle());
