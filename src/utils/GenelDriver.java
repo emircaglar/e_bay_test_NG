@@ -33,7 +33,7 @@ public class GenelDriver {
             e.printStackTrace();
         }
 
-   driver.quit();
+   //driver.quit();
     }
 
 
